@@ -1,0 +1,170 @@
+body {
+    height: 125vh;
+    margin-top: 80px;
+    padding: 30px;
+    background-size: cover;
+    font-family: 'Georgia';
+    color: #000204;
+}
+
+header {
+    background-color: rgb(200, 196, 196);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 5px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px 0 rgb(1, 0, 0);
+}
+
+header * {
+    display: inline;
+}
+
+header li {
+    margin: 50px;
+}
+
+header li a {
+    color: rgb(4, 4, 4);
+    text-decoration: none;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box
+}
+
+.container {
+    width: 70%;
+    background-color: #ddd;
+    
+}
+
+.skills {
+    text-align: right;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: white;
+}
+
+.Golang {
+    width: 100%;
+    background-color: #2196F3;
+}
+
+.aws {
+    width: 60%;
+    background-color: #2196F3;
+}
+
+.html {
+    width: 100%;
+    background-color: #2196F3;
+}
+
+.css {
+    width: 80%;
+    background-color: #2196F3;
+}
+
+.js {
+    width: 65%;
+    background-color: #2196F3;
+}
+
+.tform {
+    width: 60%;
+    background-color: #2196F3;
+}
+
+.body {
+    padding: 0;
+    margin: 0;
+}
+
+.master {
+    display: flex;
+    flex-direction: row;
+}
+
+.right {
+    width: 70%;
+    height: 100vh;
+    background-color: white;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    padding-left: 100px;
+}
+
+.left {
+    width: 30%;
+    padding: 30px;
+    height: 100vh;
+    margin: 50px;
+    text-align: center;
+    background-color: white;
+} 
+
+
+
+img{
+    border-radius: 50%;
+}
+
+.bottom{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    color: #000204;
+    border : 1px solid grey;
+    width: 100%;
+    background-color: white;
+}
+
+.line{
+    width: 1px;
+    height:auto ;
+    background-color: gray;
+}
+
+@media only screen and (max-width: 700px) {
+    body {
+        height: auto;
+        margin-top: 50px;
+        padding: 10px;
+    }
+  
+    header {
+        height: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+  
+    header li{
+        margin:20px;
+    }
+    .container {
+        width: 90%;
+    }
+  
+    .right {
+        width: 100%;
+        padding-left: 10px;
+        text-align: center;
+    }
+  
+    .left {
+        width: 100%;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .bottom{
+        width: 100%;
+    }
+}
